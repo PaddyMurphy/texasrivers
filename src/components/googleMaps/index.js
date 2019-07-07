@@ -95,7 +95,8 @@ class GoogleMap extends Component {
 
     render() {
         const mapStyle = {
-            position: 'absolute',
+            flex: 1,
+            position: 'fixed',
             left: '0',
             top: '0',
             width: '100vw',
