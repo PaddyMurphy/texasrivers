@@ -126,7 +126,7 @@ export const MAPSTYLE_ORION = [
         elementType: 'labels',
         stylers: [
             {
-                visibility: 'on',
+                visibility: 'off',
             },
         ],
     },
@@ -135,7 +135,7 @@ export const MAPSTYLE_ORION = [
         elementType: 'geometry.fill',
         stylers: [
             {
-                visibility: 'off',
+                visibility: 'on',
             },
         ],
     },
@@ -153,7 +153,7 @@ export const MAPSTYLE_ORION = [
         elementType: 'labels',
         stylers: [
             {
-                visibility: 'off',
+                visibility: 'on',
             },
         ],
     },
@@ -183,7 +183,7 @@ export const MAPSTYLE_ORION = [
         elementType: 'labels',
         stylers: [
             {
-                visibility: 'off',
+                visibility: 'on',
             },
             {
                 lightness: '12',

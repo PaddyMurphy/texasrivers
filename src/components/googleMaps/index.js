@@ -4,15 +4,8 @@ import React, { Component } from 'react';
 import GoogleMapsLoader from 'google-maps';
 import PropTypes from 'prop-types';
 import { MAPSTYLE_ORION } from './mapstyle-orion';
+//import RiversJSON from './rivers.json';
 const indeedMarker = require('./indeed-marker.png');
-
-// TODO:
-// use props for params and remove state
-// center map on initial load based on location
-// fix invalid location error: InvalidValueError: setPosition: not a LatLng or LatLngLiteral: in property lat: not a number
-// add styling...
-// set markers within the bounds
-// refetch on pan or zoom
 
 class GoogleMap extends Component {
     state = {
@@ -24,17 +17,18 @@ class GoogleMap extends Component {
     map = null; // shared reference to Map object
 
     static defaultProps = {
-        libraries: ['geometry'], // ['geometry', 'places']
-        placesTypes: ['geocode'], // ['address', 'geocode', 'establishment']
         jobs: {},
+        libraries: ['geometry'], // ['geometry', 'places']
         location: null,
+        placesTypes: ['geocode'], // ['address', 'geocode', 'establishment']
     };
 
     static propTypes = {
-        libraries: PropTypes.array,
-        placesTypes: PropTypes.array,
         jobs: PropTypes.object,
+        libraries: PropTypes.array,
         location: PropTypes.string,
+        placesTypes: PropTypes.array,
+        start: PropTypes.array.isRequired,
     };
 
     componentDidMount() {
@@ -65,16 +59,16 @@ class GoogleMap extends Component {
     initializeGoogle = () => {
         const { googleMap } = this; // use googleMap ref to locate map
         // defaults lat/lng to Austin
-        const { latitude = 30.2672, longitude = -97.7431 } = this.props;
+        const { start } = this.props;
         // save map to root for reference
         // eslint-disable-next-line
         this.map = new google.maps.Map(googleMap, {
-            disableDefaultUI: true,
-            center: { lat: latitude, lng: longitude },
+            //disableDefaultUI: true,
+            center: { lat: start[0], lng: start[1] },
             mapTypeId: 'terrain', // hybrid, roadmap, satellite, terrain
-            scrollwheel: false,
+            //scrollwheel: false,
             styles: MAPSTYLE_ORION,
-            zoom: 12,
+            zoom: 14,
         });
     };
 
