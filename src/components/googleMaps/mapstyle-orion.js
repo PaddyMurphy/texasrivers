@@ -1,6 +1,6 @@
 // custom styles provided from Stephanie
 // admin labels turned on
-export const MAPSTYLE_ORION = [
+export const MAPSTYLE_TEXASRIVERS = [
     {
         featureType: 'all',
         elementType: 'all',

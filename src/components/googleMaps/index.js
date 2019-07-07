@@ -3,7 +3,7 @@
 import React, { Component } from 'react';
 import GoogleMapsLoader from 'google-maps';
 import PropTypes from 'prop-types';
-import { MAPSTYLE_ORION } from './mapstyle-orion';
+import { MAPSTYLE_TEXASRIVERS } from './mapstyle-orion';
 //import RiversJSON from './rivers.json';
 const indeedMarker = require('./indeed-marker.png');
 
@@ -42,6 +42,14 @@ class GoogleMap extends Component {
         }
     }
 
+    componentDidUpdate(prevProps) {
+        // only update width if tags change
+        if (this.props.start !== prevProps.start) {
+            console.log('new river');
+            this.initializeGoogle();
+        }
+    }
+
     // google maps places api
     // NOTE: using patrick's personal key with limits set so I don't get charged
     // admin https://console.cloud.google.com/apis
@@ -67,7 +75,7 @@ class GoogleMap extends Component {
             center: { lat: start[0], lng: start[1] },
             mapTypeId: 'terrain', // hybrid, roadmap, satellite, terrain
             //scrollwheel: false,
-            styles: MAPSTYLE_ORION,
+            styles: MAPSTYLE_TEXASRIVERS,
             zoom: 14,
         });
     };
@@ -97,6 +105,7 @@ class GoogleMap extends Component {
             height: '100%',
             zIndex: '-1',
         };
+        console.log('render map');
         return (
             <>
                 <div
