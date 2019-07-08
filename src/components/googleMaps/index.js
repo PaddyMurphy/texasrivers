@@ -55,7 +55,7 @@ class GoogleMap extends Component {
         // load google maps
         GoogleMapsLoader.VERSION = '3.37';
         // note: key is locked to mountaindrawn url
-        GoogleMapsLoader.KEY = 'AIzaSyDf-t-gqXzgp18H4Zulo_q2tDWUjvkEjtU';
+        GoogleMapsLoader.KEY = 'AIzaSyD_X0NmEPSx6tNOTpAJHomSXqNfP_rl5H8';
         GoogleMapsLoader.LIBRARIES = this.props.libraries;
         GoogleMapsLoader.load(google => {});
         GoogleMapsLoader.onLoad(google => {
