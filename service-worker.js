@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/texasrivers/precache-manifest.8f83b79928f2ef4274bcf4a3c52679fe.js"
+  "/texasrivers/precache-manifest.5fa9c5a892c2c03b88818a9ff0bffaca.js"
 );
 
 self.addEventListener('message', (event) => {
