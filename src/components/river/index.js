@@ -3,6 +3,7 @@ import './river.scss';
 
 function River({
     categories,
+    currentFlow,
     description,
     flowMax,
     flowMin,
@@ -31,13 +32,16 @@ function River({
                     </li>
                 </ul>
                 <ul>
+                    <li className="river-link">
+                        <b>current flow:</b>{' '}
+                        <span dangerouslySetInnerHTML={{ __html: currentFlow }}></span>
+                    </li>
                     <li>
                         <b>length:</b> {length}
                     </li>
                     <li>
                         <b>activities:</b> {categories.join(', ')}
                     </li>
-                    <li></li>
                 </ul>
             </div>
             <p className="river-description">{description}</p>

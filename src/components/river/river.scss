@@ -16,8 +16,17 @@
 		margin-bottom: 1rem;
 		padding: 1rem;
 
+		li {
+			font-size: 14px;
+		}
+
 		li:not(:last-child) {
 			padding-bottom: 0.3rem;
+		}
+	}
+	&-link {
+		&:visited {
+			color: $link-color
 		}
 	}
 }

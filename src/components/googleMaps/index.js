@@ -1,13 +1,13 @@
 /* eslint-disable no-unused-vars */
 /* global google */
-import React, { Component } from 'react';
+import React, { PureComponent } from 'react';
 import GoogleMapsLoader from 'google-maps';
 import PropTypes from 'prop-types';
 import { MAPSTYLE_TEXASRIVERS } from './mapstyle-orion';
 //import RiversJSON from './rivers.json';
 const indeedMarker = require('./indeed-marker.png');
 
-class GoogleMap extends Component {
+class GoogleMap extends PureComponent {
     state = {
         mapCenter: null,
         locationMarker: null,
