@@ -7,17 +7,68 @@
         "flowOptimum": "500 - 2,000 cfs",
         "description": "The Guadalupe is the gem of Texas rivers, offering everything from tame flatwater to challenging Class III rapids and water falls. It is a spring-fed river that flows over a bed of limestone from about 20 miles west of Hunt, in Kerr County, down to a rocky bed toward Canyon Lake in Comal County over a distance of about 82 miles, then another 280-300 miles to San Antonio Bay on the Gulf of Mexico.",
         "categories": ["fishing", "camping", "whitewater"],
-        "length": "",
+        "length": "230 miles",
         "latlong": [29.789513, -98.124121],
-        "url": "https://gist.githubusercontent.com/PaddyMurphy/4fffd9f80ece7fa27314e8e0fda6aeda/raw/2e6f8443e3e26f7a63a6ca58ca4ab03bc0da761b/map-guadalupe.geojson"
+        "geojson": "https://gist.githubusercontent.com/PaddyMurphy/4fffd9f80ece7fa27314e8e0fda6aeda/raw/2e6f8443e3e26f7a63a6ca58ca4ab03bc0da761b/map-guadalupe.geojson"
     },
     {
         "id": "devils",
         "name": "Devils River",
+        "flowMax": "1,200 cfs",
+        "flowMin": "200 cfs",
+        "flowOptimum": "400 - 900 cfs",
         "description": "The best river",
         "categories": ["fishing", "camping, whitewater"],
         "latlong": [29.910443, -101.093763],
-        "length": ""
+        "length": "94 miles"
+    },
+    {
+        "id": "colorado",
+        "name": "Colorado River",
+        "flowMax": "5000 cfs",
+        "flowMin": "200 cfs",
+        "flowOptimum": "500 - 3,000 cfs",
+        "description": "The Colorado River rises in Dawson County on the Texas-New Mexico border and flows for about 600 miles to the mouth at the Gulf of Mexico at Matagorda Bay through the rolling prairie of the high plains of West Texas, down through the Hill Country, which begins in San Saba County with its gorgeous canyons, then through the Balcones Escarpment near Austin and finally through the lower Hill Country below Austin to the and coastal lowlands that are parts of Texas topography.",
+        "categories": ["fishing", "camping"],
+        "latlong": [30.207493, -97.508076],
+        "length": "862 miles",
+        "geojson": "https://gist.githubusercontent.com/PaddyMurphy/276ceb4accf0bc7cab23c4565b027306/raw/4fe6f6e78cd425bfbefd19171dcc164856f3d462/map-colorado.geojson"
+    },
+    {
+        "id": "medina",
+        "name": "Medina River",
+        "flowMax": "1000 cfs",
+        "flowMin": "125 cfs",
+        "flowOptimum": "250 - 700 cfs",
+        "description": "The Medina River is a short, narrow, beautiful river that is reminescent of the Upper Guadalupe because of the physical nature of its topography. Starting in northwest Bandera County, it winds about 116 miles through Bandera, Medina and Bexar Counties to its confluence with the San Antonio River just southeast of the City of San Antonio. The Medina is a narrow river averaging about 30-40 feet wide and is lined with Bald Cypress trees, though not nearly as many as before the flood of 2002.",
+        "categories": ["fishing", "camping", "whitewater"],
+        "latlong": [29.790991, -99.238212],
+        "length": "120 miles",
+        "geojson": "https://gist.githubusercontent.com/PaddyMurphy/b8b96d94719eea52efcacabe9c229d88/raw/531fa37dab6bdaefc646f9d12f4998c95ea0c606/map-medina.geojson"
+    },
+    {
+        "id": "nueces",
+        "name": "Nueces River",
+        "flowMax": "1,500 cfs",
+        "flowMin": "125 cfs",
+        "flowOptimum": "250 - 700  cfs",
+        "description": "The Spanards gave the Nueces River its name, which means 'nuts', because of all the pecan trees found lining its banks and adjacent land, or perhaps because you would have to be nuts to try paddling it most of the time. To say it is not a perennial stream would be an understatement, but after a good rain in its watershed the Nueces is a fantastic and very remote river to paddle in a canoe or kayak.",
+        "categories": ["fishing", "camping", "whitewater"],
+        "latlong": [29.563386, -99.963965],
+        "length": "315 miles",
+        "geojson": "https://gist.githubusercontent.com/PaddyMurphy/70d83341ac14aad182c71e0a8fdd9542/raw/110b5877ecc15c12bd4fc76e7f615a70cee051aa/map-nueces.geojson"
+    },
+    {
+        "id": "rio-grande",
+        "name": "Rio Grande River",
+        "flowMax": "1,200 cfs",
+        "flowMin": "200 cfs",
+        "flowOptimum": "300 - 1,000  cfs",
+        "description": "The Rio Grande, or Rio Bravo del Norte, as it is known in Mexico, is the most remote river in Texas, and is one of the very few true wilderness trips available in the United States (even though it is really in the Country of Texas!) Flowing through the Texas-Mexico desert, the river offers spectacular views of high mountains, the desert floor, wild animals, beautiful sunrises and sunsets, breathtaking flora and fauna and just about everything except signs of civilization.",
+        "categories": ["fishing", "camping"],
+        "latlong": [29.057574, -103.067624],
+        "length": "1,885 miles",
+        "geojson": "https://gist.githubusercontent.com/PaddyMurphy/80689f61e28f0371dcf227593f9e684b/raw/54b6c0dd0af0c73e9a42e4f1e4b32efc789580f9/map-rio-grande.geojson"
     },
     {
         "id": "brazos",
@@ -28,105 +79,7 @@
         "description": "The Brazos River forms at the confluence off its Double Mountain Fork, beginning in Lubbock County, and Salt Fork, beginning in Crosby County, then merging in eastern Stonewall County near the Haskell County Line. Navigable flows begin below the Clear Fork confluence in Young County just southwest of Graham.",
         "categories": ["fishing", "camping", "whitewater"],
         "latlong": [32.34967, -97.70949],
-        "length": "",
-        "url": "https://gist.githubusercontent.com/PaddyMurphy/0aa90a6d7641b37b6be0828301dc9ff7/raw/f090af09d4b545462ef696648782d6079063da57/map-brazos.geojson"
-    },
-    {
-        "id": "colorado",
-        "name": "Colorado River",
-        "flowMax": "5000 cfs",
-        "flowMin": "200 cfs",
-        "flowOptimum": "500 - 3,000 cfs",
-        "description": "The Colorado River rises in Dawson County on the Texas-New Mexico border and flows for about 600 miles to the mouth at the Gulf of Mexico at Matagorda Bay through the rolling prairie of the high plains of West Texas, down through the Hill Country, which begins in San Saba County with its gorgeous canyons, then through the Balcones Escarpment near Austin and finally through the lower Hill Country below Austin to the and coastal lowlands that are parts of Texas topography.",
-        "categories": ["fishing", "camping"],
-        "length": "",
-        "url": "https://gist.githubusercontent.com/PaddyMurphy/276ceb4accf0bc7cab23c4565b027306/raw/4fe6f6e78cd425bfbefd19171dcc164856f3d462/map-colorado.geojson"
-    },
-    {
-        "id": "medina",
-        "name": "Medina River",
-        "flowMax": "1000 cfs",
-        "flowMin": "125 cfs",
-        "flowOptimum": "250 - 700 cfs",
-        "description": "The Medina River is a short, narrow, beautiful river that is reminescent of the Upper Guadalupe because of the physical nature of its topography. Starting in northwest Bandera County, it winds about 116 miles through Bandera, Medina and Bexar Counties to its confluence with the San Antonio River just southeast of the City of San Antonio. The Medina is a narrow river averaging about 30-40 feet wide and is lined with Bald Cypress trees, though not nearly as many as before the flood of 2002.",
-        "categories": ["fishing", "camping"],
-        "length": "",
-        "url": "https://gist.githubusercontent.com/PaddyMurphy/b8b96d94719eea52efcacabe9c229d88/raw/531fa37dab6bdaefc646f9d12f4998c95ea0c606/map-medina.geojson"
-    },
-    {
-        "id": "neches",
-        "name": "Neches River",
-        "flowMax": "10,000 cfs",
-        "flowMin": "500 cfs",
-        "flowOptimum": "1,000 - 5,000  cfs",
-        "description": "Deep East Texas is known for its flatwater rivers flowing through tall pine forests, dense riverbank vegetation, strainers created by downed trees and dead-end channels that deceive paddlers.The Neches is an historic river in Texas lore that begins in Van Zandt County and flows through Smith, Henderson, Cherokee, Anderson, Houston, Angelina, Jasper, Tyler, Hardin and Orange Counties on its 416 mile journey to the Gulf of Mexico at Port Neches. With a drainage area of 10,011 square miles the Neches River dumps about 6 million acre-feet of water into the Gulf of Mexico each year.",
-        "categories": ["fishing", "camping", "whitewater"],
-        "length": "",
-        "url": "https://gist.githubusercontent.com/PaddyMurphy/29f0ce0c0b52eb8ed5cecad740dea9e3/raw/f6285214fe9037a547ea05f3f63c920fc84c7dab/map-neches.geojson"
-    },
-    {
-        "id": "nueces",
-        "name": "Nueces River",
-        "flowMax": "1,500 cfs",
-        "flowMin": "125 cfs",
-        "flowOptimum": "250 - 700  cfs",
-        "description": "The Spanards gave the Nueces River its name, which means 'nuts', because of all the pecan trees found lining its banks and adjacent land, or perhaps because you would have to be nuts to try paddling it most of the time. To say it is not a perennial stream would be an understatement, but after a good rain in its watershed the Nueces is a fantastic and very remote river to paddle in a canoe or kayak.",
-        "categories": ["fishing", "camping", "whitewater"],
-        "length": "",
-        "url": "https://gist.githubusercontent.com/PaddyMurphy/70d83341ac14aad182c71e0a8fdd9542/raw/110b5877ecc15c12bd4fc76e7f615a70cee051aa/map-nueces.geojson"
-    },
-    {
-        "id": "rio-grande",
-        "name": "Rio Grande River",
-        "flowMax": "1,200 cfs",
-        "flowMin": "200 cfs",
-        "flowOptimum": "300 - 1,000  cfs",
-        "description": "The Rio Grande, or Rio Bravo del Norte, as it is known in Mexico, is the most remote river in Texas, and is one of the very few true wilderness trips available in the United States (even though it is really in the Country of Texas!) Flowing through the Texas-Mexico desert, the river offers spectacular views of high mountains, the desert floor, wild animals, beautiful sunrises and sunsets, breathtaking flora and fauna and just about everything except signs of civilization.",
-        "categories": ["fishing", "camping"],
-        "length": "1,885 miles",
-        "url": "https://gist.githubusercontent.com/PaddyMurphy/80689f61e28f0371dcf227593f9e684b/raw/54b6c0dd0af0c73e9a42e4f1e4b32efc789580f9/map-rio-grande.geojson"
-    },
-    {
-        "id": "sabine",
-        "name": "Sabine River",
-        "flowMax": "5,000 cfs",
-        "flowMin": "500 cfs",
-        "flowOptimum": "1,000 - 2,000  cfs",
-        "description": "The Sabine River in East Texas forms where the South Fork, starting in Collin County, and the Cowleech Fork of Hunt County, merge in southern Hunt County before beginning a trek of about 555 miles. The river flows through the piney woods of deep East Texas and forms the partial boundary between Texas and Louisiana before reaching its mouth on Sabine Lake at the Gulf of Mexico.",
-        "categories": ["fishing", "camping"],
-        "length": "",
-        "url": "https://gist.githubusercontent.com/PaddyMurphy/8955783f0ec85b3c3adab940e7f1ed05/raw/d81fa113dca9f073b7134d566d3aa0b8f087101b/map-sabine.geojson"
-    },
-    {
-        "id": "san-antonio",
-        "name": "San Antonio River",
-        "flowMax": "1,500 cfs",
-        "flowMin": "250 cfs",
-        "flowOptimum": "450 - 1,000  cfs",
-        "description": "Forming at Blue Hole Spring on the campus of the University of the Incarnate Word inside the city limits of its namesake in Bexar County, the San Antonio River rises in southcentral Texas as a coastal plains flatwater stream, then gently meanders its way southeast through Wilson, Karnes, Goliad, Victoria, Refugio and calhoun Counties some 236 miles to its confluence with the Guadalupe River near San Antonio Bay on the Gulf of Mexico. ",
-        "categories": ["fishing", "camping"],
-        "length": "",
-        "url": "https://gist.githubusercontent.com/PaddyMurphy/260e7512a9c3b48f5e4c65075b75c14a/raw/7fe4e158d3a9547991846d44c0021b83e4c4a6b3/map-san-antonio.geojson"
-    },
-    {
-        "id": "san-jacinto",
-        "name": "San Jacinto River",
-        "description": "",
-        "categories": ["fishing", "camping"],
-        "length": ""
-    },
-    {
-        "id": "sulfer",
-        "name": "Sulfer River",
-        "description": "",
-        "categories": ["fishing", "camping"],
-        "length": ""
-    },
-    {
-        "id": "trinity",
-        "name": "Trinity River",
-        "description": "",
-        "categories": ["fishing", "camping"],
-        "length": ""
+        "length": "840 miles",
+        "geojson": "https://gist.githubusercontent.com/PaddyMurphy/0aa90a6d7641b37b6be0828301dc9ff7/raw/f090af09d4b545462ef696648782d6079063da57/map-brazos.geojson"
     }
 ]

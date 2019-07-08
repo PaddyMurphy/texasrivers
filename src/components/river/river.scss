@@ -1,0 +1,31 @@
+
+// River component styles
+@import '../../styles/variables.scss';
+
+.river {
+	padding-bottom: 3rem;
+
+	&-details, &-description {
+		margin: 0 $app-padding;
+	}
+	&-details {
+		background-color: rgba(0,0,0,0.05);
+		border-radius: $border-radius;
+		display: flex;
+		justify-content: space-between;
+		margin-bottom: 1rem;
+		padding: 1rem;
+
+		li:not(:last-child) {
+			padding-bottom: 0.3rem;
+		}
+	}
+}
+
+.btn-river {
+	cursor: pointer;
+	border: 0;
+	background: transparent;
+	margin-left: $app-padding;
+	padding: 0;
+}

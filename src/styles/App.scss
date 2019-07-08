@@ -1,15 +1,20 @@
+@import './variables.scss';
 .App {
-	background-color: rgba(255,255,255,0.6);
+	background-color: rgba(255,255,255,0.75);
 	display: flex;
 	flex-direction: column;
+	float: left; // allow clicking through to maps
 	margin: 0 4rem 0 40vw;
-	padding: 1.5rem;
+	overflow: hidden;
+	padding: 1rem 0;
 	position: relative;
 
 
 	&-header {
-		margin: 0 0 1rem;
+		margin: 0 $app-padding 1rem;
 	}
 
-	&-rivers {}
+	&-rivers {
+		margin-bottom: 80vh; // allow scrolling to top
+	}
 }

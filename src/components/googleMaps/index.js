@@ -19,14 +19,12 @@ class GoogleMap extends Component {
     static defaultProps = {
         jobs: {},
         libraries: ['geometry'], // ['geometry', 'places']
-        location: null,
         placesTypes: ['geocode'], // ['address', 'geocode', 'establishment']
     };
 
     static propTypes = {
         jobs: PropTypes.object,
         libraries: PropTypes.array,
-        location: PropTypes.string,
         placesTypes: PropTypes.array,
         start: PropTypes.array.isRequired,
     };
@@ -55,7 +53,8 @@ class GoogleMap extends Component {
     // admin https://console.cloud.google.com/apis
     loadGoogleMapsAPI(callback) {
         // load google maps
-        GoogleMapsLoader.VERSION = '3.36';
+        GoogleMapsLoader.VERSION = '3.37';
+        // note: key is locked to mountaindrawn url
         GoogleMapsLoader.KEY = 'AIzaSyDf-t-gqXzgp18H4Zulo_q2tDWUjvkEjtU';
         GoogleMapsLoader.LIBRARIES = this.props.libraries;
         GoogleMapsLoader.load(google => {});
@@ -76,7 +75,7 @@ class GoogleMap extends Component {
             mapTypeId: 'terrain', // hybrid, roadmap, satellite, terrain
             //scrollwheel: false,
             styles: MAPSTYLE_TEXASRIVERS,
-            zoom: 14,
+            zoom: 13,
         });
     };
 
