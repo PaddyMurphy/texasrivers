@@ -48,7 +48,7 @@
         "flowMin": "200 cfs",
         "flowOptimum": "400 - 900 cfs",
         "currentFlow": "<a href='https://mountaindrawn.com/react-riverflow/#/08449100' target='_blank' rel='noopener noreferrer'>Dolan Creek guage</a>",
-        "description": "The best river",
+        "description": "The Devil's River is one of the most beautiful, unspoiled rivers in Texas. It is spring fed and flows over solid limestone, so flows and depth increase as it moves downstream. Water quality is among the very best in the State of Texas.",
         "categories": ["fishing", "camping, whitewater"],
         "latlong": [29.910443, -101.093763],
         "length": "94 miles",
@@ -93,7 +93,36 @@
         "categories": ["fishing", "camping"],
         "latlong": [30.207493, -97.508076],
         "length": "862 miles",
-        "geojson": "https://gist.githubusercontent.com/PaddyMurphy/276ceb4accf0bc7cab23c4565b027306/raw/4fe6f6e78cd425bfbefd19171dcc164856f3d462/map-colorado.geojson"
+        "geojson": "https://gist.githubusercontent.com/PaddyMurphy/276ceb4accf0bc7cab23c4565b027306/raw/4fe6f6e78cd425bfbefd19171dcc164856f3d462/map-colorado.geojson",
+        "photos": [
+            {
+                "src": "https://live.staticflickr.com/7450/9011890227_d0ec8f9d7c_o.jpg",
+                "thumbnail": "https://live.staticflickr.com/7450/9011890227_be95ac1801_n.jpg",
+                "thumbnailWidth": 320,
+                "thumbnailHeight": 180,
+                "caption": "Paddy Murphy"
+            },
+            {
+                "src": "https://live.staticflickr.com/5450/9011865327_9412cbe131_o.jpg",
+                "thumbnail": "https://live.staticflickr.com/5450/9011865327_bfea81c512_n.jpg",
+                "thumbnailWidth": 320,
+                "thumbnailHeight": 180,
+                "caption": "Rope swing"
+            },
+            {
+                "src": "https://live.staticflickr.com/3768/9012995036_11f264aa3a_o.jpg",
+                "thumbnail": "https://live.staticflickr.com/3768/9012995036_b41103d458_n.jpg",
+                "thumbnailWidth": 320,
+                "thumbnailHeight": 180,
+                "caption": "typical campsite"
+            },
+            {
+                "src": "https://live.staticflickr.com/7323/11393240254_ea517e2669_o.jpg",
+                "thumbnail": "https://live.staticflickr.com/7323/11393240254_052a92cd74_n.jpg",
+                "thumbnailWidth": 320,
+                "thumbnailHeight": 180
+            }
+        ]
     },
     {
         "id": "medina",

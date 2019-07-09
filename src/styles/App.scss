@@ -16,6 +16,13 @@
 	}
 
 	&-rivers {
-		margin-bottom: 80vh; // allow scrolling to top
+		//margin-bottom: 80vh; // allow scrolling to top
+	}
+	.todo {
+		margin: 1rem 1.5rem 80vh; // allow scrolling to top
+		li {
+			list-style-type: disc;
+			margin: 0 0 0 1rem
+		}
 	}
 }

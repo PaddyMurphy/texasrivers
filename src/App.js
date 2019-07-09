@@ -84,8 +84,17 @@ function App() {
                         return <River key={d.id} {...d} goToRiver={goToRiver} />;
                     })}
                 </ul>
+                <div className="todo">
+                    <h3>TODO:</h3>
+                    <ul>
+                        <li>Add map markers with put in/ take out info</li>
+                        <li>Add map markers for campsites and POI</li>
+                        <li>toggle showing the entire map</li>
+                        <li>have selectable river sections for days and overnight trips</li>
+                    </ul>
+                </div>
             </main>
-            {currentRiver.latlong && <GoogleMap start={currentRiver.latlong} />} {/**/}
+            {currentRiver.latlong && <GoogleMap start={currentRiver.latlong} />}
         </>
     );
 }
