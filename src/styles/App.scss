@@ -1,16 +1,17 @@
 @import './variables.scss';
 .App {
-	background-color: rgba(255,255,255,0.75);
+	background-color: rgba(255,255,255,0.85);
 	display: flex;
 	flex-direction: column;
 	float: left; // allow clicking through to maps
 	margin: 0 4rem 0 40vw;
-	overflow: hidden;
+	overflow: auto;
 	padding: 1rem 0;
-	position: relative;
+	//position: relative;
 
 
 	&-header {
+		align-self: flex-start;
 		margin: 0 $app-padding 1rem;
 	}
 

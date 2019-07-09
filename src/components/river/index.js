@@ -1,4 +1,5 @@
 import React from 'react';
+import Gallery from 'react-grid-gallery';
 import './river.scss';
 
 function River({
@@ -9,10 +10,12 @@ function River({
     flowMin,
     flowOptimum,
     id,
+    images,
     length,
     name,
     goToRiver,
 }) {
+    console.log(images);
     return (
         <li id={`river-${id}`} className="river">
             <button onClick={() => goToRiver(id)} className="btn-river h2">

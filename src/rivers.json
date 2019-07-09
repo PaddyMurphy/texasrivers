@@ -64,7 +64,7 @@
         "geojson": "https://gist.githubusercontent.com/PaddyMurphy/70d83341ac14aad182c71e0a8fdd9542/raw/110b5877ecc15c12bd4fc76e7f615a70cee051aa/map-nueces.geojson"
     },
     {
-        "id": "rio-grande",
+        "id": "riogrande",
         "name": "Rio Grande River",
         "flowMax": "1,200 cfs",
         "flowMin": "200 cfs",

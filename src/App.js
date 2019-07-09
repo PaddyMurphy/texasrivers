@@ -1,14 +1,41 @@
 import React, { useEffect, useState } from 'react';
 import GoogleMap from './components/googleMaps';
 import River from './components/river';
+import $ from 'jquery'; // only using getJson - fetch-jsonp no worky
 import RiversJSON from './rivers.json';
 import './styles/App.scss';
 
+const apiKey = '6c6069e831fb567b86c7d9b75c82624f';
 let ticking = false;
+let fetched = false;
+let tags = [];
+RiversJSON.forEach(d => {
+    tags.push(`texasrivers${d.id}`);
+});
 
 function App() {
     let [currentRiver, setCurrentRiver] = useState(undefined);
     let [activeSection, setActiveSection] = useState(0);
+    let [images, setImages] = useState(undefined);
+
+    const getFlickrImages = tag => {
+        // only fetch once
+        if (fetched) return null;
+        fetched = true;
+        // create document fragment to add all at once
+        var baseURL = 'https://api.flickr.com/services/rest/?&method=flickr.photos.search';
+        // use list of tags to determine which album
+        $.getJSON(
+            `${baseURL}&api_key=${apiKey}&tags=${tags}&per_page=10&tag_mode=any&sort=interestingness-asc&extras=tags&format=json&jsoncallback=?`,
+            function(data) {
+                console.log('success', data.photos);
+                setImages(data.photos);
+            }
+        ).fail(function(error) {
+            console.log(error);
+            return null;
+        });
+    };
 
     const goToRiver = river => {
         const newRiver = RiversJSON.find(r => {
@@ -58,6 +85,8 @@ function App() {
     };
 
     useEffect(() => {
+        getFlickrImages();
+
         window.addEventListener('scroll', handleScroll);
         return () => {
             // cleanup
@@ -77,7 +106,7 @@ function App() {
                         if (!currentRiver && d.id === 'guadalupe') {
                             currentRiver = d;
                         }
-                        return <River key={d.id} {...d} goToRiver={goToRiver} />;
+                        return <River key={d.id} {...d} images={images} goToRiver={goToRiver} />;
                     })}
                 </ul>
             </main>
