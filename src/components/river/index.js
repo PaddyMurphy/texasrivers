@@ -1,5 +1,6 @@
 import React from 'react';
 import Gallery from 'react-grid-gallery';
+import IMAGES from './testImages.json';
 import './river.scss';
 
 function River({
@@ -10,18 +11,19 @@ function River({
     flowMin,
     flowOptimum,
     id,
-    images,
     length,
     name,
     goToRiver,
 }) {
-    console.log(images);
+    // TODO: import the gallery images
     return (
         <li id={`river-${id}`} className="river">
             <button onClick={() => goToRiver(id)} className="btn-river h2">
                 {name}
             </button>
-            {/* <div className="river-photos">photos...</div> */}
+            <div className="river-photos">
+                <Gallery images={IMAGES} margin={0} maxRows={1} />
+            </div>
             <div className="river-details">
                 <ul>
                     <li>

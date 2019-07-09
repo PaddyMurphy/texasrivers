@@ -29,6 +29,10 @@
 			color: $link-color
 		}
 	}
+	&-photos {
+		margin-bottom: 1rem;
+		overflow: auto; // allow full height
+	}
 }
 
 .btn-river {
