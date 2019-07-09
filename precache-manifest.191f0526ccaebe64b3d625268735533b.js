@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4101f0d21d60d329e457371eead43928",
+    "revision": "d26250cb8d2db64708feadd8418797bf",
     "url": "/texasrivers/index.html"
   },
   {
-    "revision": "787d6a29a5f06f063a36",
-    "url": "/texasrivers/static/css/main.f349b68c.chunk.css"
+    "revision": "54e25cbb98d21f5d7efc",
+    "url": "/texasrivers/static/css/main.6d82ba74.chunk.css"
   },
   {
     "revision": "495cb205c3b5a4f760ec",
     "url": "/texasrivers/static/js/2.a670bd70.chunk.js"
   },
   {
-    "revision": "787d6a29a5f06f063a36",
-    "url": "/texasrivers/static/js/main.fb3f14cb.chunk.js"
+    "revision": "54e25cbb98d21f5d7efc",
+    "url": "/texasrivers/static/js/main.34f77bd3.chunk.js"
   },
   {
     "revision": "a88794250ff5af6a8f45",
