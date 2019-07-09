@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useCallback, useEffect, useState } from 'react';
 import GoogleMap from './components/googleMaps';
 import River from './components/river';
 import RiversJSON from './rivers.json';
@@ -25,7 +25,7 @@ function App() {
         newRiverEl.scrollIntoView();
     };
 
-    const checkActiveSection = () => {
+    const checkActiveSection = useCallback(() => {
         let rivers = Array.from(document.querySelectorAll('.river'));
         const navLinks = document.querySelectorAll('.btn-river');
         //let activeLink = null;
@@ -47,7 +47,7 @@ function App() {
         setActiveSection(active.id);
         goToRiver(active.id.replace('river-', ''));
         //console.log(activeSection);
-    };
+    }, [activeSection]);
 
     const handleScroll = () => {
         // throttle scrolling

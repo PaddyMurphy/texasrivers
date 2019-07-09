@@ -15,8 +15,6 @@ function River({
     photos,
     goToRiver,
 }) {
-    console.log(photos);
-    // TODO: import the gallery images
     return (
         <li id={`river-${id}`} className="river">
             <button onClick={() => goToRiver(id)} className="btn-river h2">
