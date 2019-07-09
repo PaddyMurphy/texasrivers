@@ -10,7 +10,36 @@
         "categories": ["fishing", "camping", "whitewater"],
         "length": "230 miles",
         "latlong": [29.789513, -98.124121],
-        "geojson": "https://gist.githubusercontent.com/PaddyMurphy/4fffd9f80ece7fa27314e8e0fda6aeda/raw/2e6f8443e3e26f7a63a6ca58ca4ab03bc0da761b/map-guadalupe.geojson"
+        "geojson": "https://gist.githubusercontent.com/PaddyMurphy/4fffd9f80ece7fa27314e8e0fda6aeda/raw/2e6f8443e3e26f7a63a6ca58ca4ab03bc0da761b/map-guadalupe.geojson",
+        "photos": [
+            {
+                "src": "https://live.staticflickr.com/3354/5792071754_3d33bbcbd3_o.jpg",
+                "thumbnail": "https://live.staticflickr.com/3354/5792071754_a3c7ac9c67_n.jpg",
+                "thumbnailWidth": 320,
+                "thumbnailHeight": 180,
+                "caption": "Paddy Murphy"
+            },
+            {
+                "src": "https://live.staticflickr.com/7234/7313857416_b418ce9d4c_o.jpg",
+                "thumbnail": "https://live.staticflickr.com/7234/7313857416_5c926f8aaa_n.jpg",
+                "thumbnailWidth": 320,
+                "thumbnailHeight": 180,
+                "caption": "Rapids!"
+            },
+            {
+                "src": "https://live.staticflickr.com/669/32337135192_67fa096369_o.jpg",
+                "thumbnail": "https://live.staticflickr.com/669/32337135192_c243ee5998_n.jpg",
+                "thumbnailWidth": 320,
+                "thumbnailHeight": 180,
+                "caption": "typical campsite"
+            },
+            {
+                "src": "https://live.staticflickr.com/5108/5792074538_73715c6cbb_o.jpg",
+                "thumbnail": "https://live.staticflickr.com/5108/5792074538_ffb864ea0a_n.jpg",
+                "thumbnailWidth": 320,
+                "thumbnailHeight": 180
+            }
+        ]
     },
     {
         "id": "devils",
@@ -22,7 +51,36 @@
         "description": "The best river",
         "categories": ["fishing", "camping, whitewater"],
         "latlong": [29.910443, -101.093763],
-        "length": "94 miles"
+        "length": "94 miles",
+        "photos": [
+            {
+                "src": "https://live.staticflickr.com/3203/3075656669_e9aee01a49_o.jpg",
+                "thumbnail": "https://live.staticflickr.com/3203/3075656669_a4a203df3b_n.jpg",
+                "thumbnailWidth": 320,
+                "thumbnailHeight": 180,
+                "caption": "Devils River"
+            },
+            {
+                "src": "https://live.staticflickr.com/3012/3075632495_8c5fc78dbe_o.jpg",
+                "thumbnail": "https://live.staticflickr.com/3012/3075632495_cd9f385d6f_n.jpg",
+                "thumbnailWidth": 320,
+                "thumbnailHeight": 180,
+                "caption": "Rapids!"
+            },
+            {
+                "src": "https://live.staticflickr.com/3600/3695447890_8fcc82be72_o.jpg",
+                "thumbnail": "https://live.staticflickr.com/3600/3695447890_13542546b0_n.jpg",
+                "thumbnailWidth": 320,
+                "thumbnailHeight": 180,
+                "caption": "typical campsite"
+            },
+            {
+                "src": "https://live.staticflickr.com/3290/3076460656_de39535691_o.jpg",
+                "thumbnail": "hhttps://live.staticflickr.com/3290/3076460656_5256c04813_n.jpg",
+                "thumbnailWidth": 320,
+                "thumbnailHeight": 180
+            }
+        ]
     },
     {
         "id": "colorado",
